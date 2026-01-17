@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,14 +14,14 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="max-w-[1170px] mx-auto my-[50px]">
+    <header class="max-w-[1170px] mx-auto my-5 px-5 lg:my-[50px]">
       <nav
-        class="header-navbar-container flex justify-between max-w-[1170px] my-0 mx-auto"
+        class="header-navbar-container flex justify-between lg:max-w-[1170px] my-0 mx-auto sm:w-full"
       >
         <div class="left-site-header">
-          <img src="images/logo2.png" alt="" />
+          <img class="w-[150px]" src="images/logo2.png" alt="" />
         </div>
-        <div class="middle-of-header flex">
+        <div class="middle-of-header hidden sm:flex">
           <ul
             class="flex gap-[30px] text-[rgba(112,112,112,1)] items-center [&_a]:flex [&_a]:items-center [&_img]:w-[24px] [&_a]:gap-1"
           >
@@ -52,27 +52,27 @@
         </div>
         <div>
           <button
-            class="font-[semibold] text-white text-[1.1rem] py-[18px] px-[29px] bg-[rgba(182,140,90,1)] rounded-lg"
+            class="px-[15px] py-[10px] lg:font-[semibold] text-white text-[1.1rem] lg:py-[18px] lg:px-[29px] bg-[rgba(182,140,90,1)] rounded-lg"
           >
             Free Consultation
           </button>
         </div>
       </nav>
     </header>
-    <main class="main max-w-[1170px] my-0 mx-auto bg-center">
+    <main class="main xl:max-w-[1170px] my-0 mx-auto bg-center px-[5px]">
       <section
-        class="legal-solutions-section bg-[url('images/banner.png')] w-full h-[550px] bg-center flex flex-col justify-center items-center bg-cover bg-no-repeat"
+        class="legal-solutions-section bg-[url('images/banner.png')] w-full h-[300px] sm:h-[400px] lg:h-[550px] flex flex-col justify-center items-center bg-center bg-cover lg:bg-cover bg-no-repeat mt-[60px]"
       >
         <div
-          class="legal-solutions-section-container bg-[url('images/Rectangle-5.png')] w-full h-[550px] bg-cover bg-center flex flex-col justify-center items-center py-[104px] px-[239px]"
+          class="legal-solutions-section-container bg-[url('images/Rectangle-5.png')] w-full h-[300px] bg-cover bg-center flex flex-col justify-center items-center lg:py-[104px] lg:px-[239px] sm:py-[50px] sm:px-[239px]"
         >
           <h1
-            class="text-7xl text-white text-center font-extrabold font-[EB-Garamond] leading-[85px]"
+            class="text-4xl px-[4px] sm:text-7xl md:text-9xl sm:leading-[70px] text-white text-center font-extrabold font-[EB-Garamond] md:leading-[85px]"
           >
             We Provide Effective Legal Solutions
           </h1>
           <p
-            class="size-[1.2rem] text-[rgba(231,231,231,1)] w-full text-center mt-6 mb-[50px]"
+            class="size-[1.2rem] text-[rgba(231,231,231,1)] w-full text-center mb-[70px] mt-2.5 lg:mt-6 lg:mb-[50px] px-[5px]"
           >
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -80,7 +80,7 @@
           </p>
           <div class="flex gap-6">
             <input
-              class="w-[500px] h-16 bg-[rgba(255,255,255,1)] text-[1rem] text-[rgba(160,160,160,1)] rounded-lg pl-5"
+              class="w-[200px] lg:w-[500px] lg:h-16 bg-[rgba(255,255,255,1)] text-[1rem] text-[rgba(160,160,160,1)] rounded-lg pl-5"
               type="text"
               placeholder="Search Your Service"
             />
@@ -94,13 +94,13 @@
       </section>
 
       <section
-        class="legal-practice-area-section mt-[120px] flex flex-col justify-center items-center mb-[120px]"
+        class="legal-practice-area-section mt-10 lg:mt-[120px] flex flex-col justify-center items-center lg:mb-[120px]"
       >
         <div
-          class="legal-practice-area-details max-w-[680px] flex flex-col justify-center items-center mb-[62px]"
+          class="legal-practice-area-details max-w-[680px] flex flex-col justify-center items-center lg:mb-[62px]"
         >
           <h3
-            class="font-[EB-Garamond] font-extrabold text-[rgba(65,64,64,1)] text-[30px] mb-5"
+            class="font-[EB-Garamond] font-extrabold text-[rgba(65,64,64,1)] text-[30px] mb-[5px] lg:mb-5"
           >
             The Legal Practice Area
           </h3>
@@ -111,7 +111,7 @@
           </p>
         </div>
         <div
-          class="legal-practice-area-card-container max-w-[1170px] grid grid-cols-3"
+          class="legal-practice-area-card-container max-w-[1170px] grid lg:grid-cols-3"
         >
           <div
             class="legal-practice-area-card flex flex-col justify-center items-center pt-14 pb-[70px] px-14"
@@ -136,7 +136,7 @@
             <img src="images/Frame.png" alt="this is frame logo" />
           </div>
           <div
-            class="legal-practice-area-card flex flex-col justify-center items-center pt-14 pb-[70px] px-14 border-t border-l border-r border-gray-200"
+            class="legal-practice-area-card flex flex-col justify-center items-center pt-14 pb-[70px] px-14 border-t lg:border-l lg:border-r border-gray-200"
           >
             <img
               class="mb-[31px]"
@@ -158,7 +158,7 @@
             <img src="images/Frame.png" alt="this is frame logo" />
           </div>
           <div
-            class="legal-practice-area-card flex flex-col justify-center items-center pt-14 pb-[70px] px-14"
+            class="legal-practice-area-card border-t border-gray-200 flex flex-col justify-center items-center pt-14 pb-[70px] px-14"
           >
             <img
               class="mb-[31px]"
@@ -249,7 +249,7 @@
       </section>
 
       <section
-        class="what-our-clint-section max-w-[1170px] flex flex-col justify-center items-center mb-[120px]"
+        class="what-our-clint-section max-w-[1170px] flex flex-col justify-center items-center mb-[30px] lg:mb-[120px] gap-[30px]"
       >
         <div
           class="what-our-clint-header-description max-w-[680px] flex flex-col justify-center items-center"
@@ -267,12 +267,11 @@
             humour.
           </p>
         </div>
-
         <div
-          class="what-our-clint-professional-details-container flex justify-center items-center flex-col bg-[url('images/banner.png')] w-full h-[500px] bg-center"
+          class="what-our-clint-professional-details-container flex justify-center items-center flex-col bg-[url('images/banner.png')] w-full h-[50vh] lg:h-[500px] bg-center bg-cover bg-no-repeat"
         >
           <div
-            class="what-our-clint-professional-details bg-[url('images/Rectangle-7.png')] w-full h-full py-24 px-[135px] flex flex-col justify-center items-center"
+            class="what-our-clint-professional-details bg-[url('images/Rectangle-7.png')] w-full h-full lg:py-24 lg:px-[135px] flex flex-col justify-center items-center"
           >
             <img
               class="w-[70px] h-[70px] rounded-full object-cover border-4 border-white mb-5"
@@ -284,9 +283,9 @@
             >
               Aminul Islam
             </h2>
-            <p class="text-[18px] text-white">Web Developer</p>
+            <p class="text-[18px] text-white mb-[10px]">Web Developer</p>
             <p
-              class="text-center text-[rgba(243,243,243,1)] mt-8 mb-10 max-w-[800px] leading-[26px]"
+              class="text-center text-[rgba(243,243,243,1)] lg:mt-8 mb-10 lg:max-w-[800px] leading-[26px]"
             >
               Contrary to popular belief, Lorem Ipsum is not simply random text.
               It has roots in a piece of classical Latin literature from 45 BC,
@@ -305,34 +304,38 @@
         </div>
       </section>
 
-      <section class="flex flex-col justify-center items-center">
+      <section
+        class="flex flex-col justify-center items-center mt-[50px] px-[10px]"
+      >
         <div
           class="frequently-asked-question max-w-[680px] flex flex-col justify-center items-center"
         >
           <h3
-            class="font-extrabold font-[EB-garamond] mb-24px text-[40px] text-[rgba(65,64,64,1)]"
+            class="font-extrabold font-[EB-garamond] mb-24px text-[40px] text-[rgba(65,64,64,1)] text-center"
           >
             Frequently Asked Any Questions
           </h3>
           <p
-            class="text-center text-[rgba(112,112,112,1)] leading-[26px] mb-[60px]"
+            class="text-[rgba(112,112,112,1)] leading-[26px] mb-[60px] text-center"
           >
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
             humour.
           </p>
         </div>
-        <div class="flex gap-[30px]">
+        <div class="flex gap-[30px] flex-col">
           <div class="flex flex-col gap-[30px]">
-            <div class="max-w-[570px] bg-[rgba(243,243,243,1)] p-8 rounded-lg">
+            <div
+              class="max-w-[570px] bg-[rgba(243,243,243,1)] lg:p-8 rounded-lg py-8 px-[5px]"
+            >
               <h1
-                class="font-extrabold text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center mb-4 text-center pl-0.5"
+                class="flex-col text-[22px] font-extrabold lg:text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center mb-4 text-center lg:pl-0.5"
               >
                 1. Are application fee waivers available?
                 <img class="w-6" src="images/minus-logo.png" alt="" />
               </h1>
               <p
-                class="text-[rgba(112,112,112,1)] max-w-[460px] leading-[26px]"
+                class="text-[rgba(112,112,112,1)] max-w-[460px] leading-[26px] text-center"
               >
                 There are many variations of passages of Lorem Ipsum available,
                 but the majority have suffered alteration in some form, by
@@ -340,26 +343,30 @@
               </p>
             </div>
             <div
-              class="max-w-[570px] bg-[rgba(243,243,243,1)] p-8 justify-between items-center rounded-lg"
+              class="max-w-[570px] bg-[rgba(243,243,243,1)] py-8 px-[5px] justify-between items-center rounded-lg"
             >
               <h1
-                class="font-extrabold text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
+                class="flex-col gap-1 font-extrabold text-[22px] lg:text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
               >
                 1. Are application fee waivers available?
                 <img class="w-6" src="images/plus-logo.png" alt="" />
               </h1>
             </div>
-            <div class="max-w-[570px] bg-[rgba(243,243,243,1)] p-8 rounded-lg">
+            <div
+              class="max-w-[570px] bg-[rgba(243,243,243,1)] rounded-lg lg:p-8 py-8 px-[5px]"
+            >
               <h1
-                class="font-extrabold text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
+                class="flex-col gap-1 font-extrabold text-[22px] lg:text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
               >
                 1. Are application fee waivers available?
                 <img class="w-6" src="images/plus-logo.png" alt="" />
               </h1>
             </div>
-            <div class="max-w-[570px] bg-[rgba(243,243,243,1)] p-8 rounded-lg">
+            <div
+              class="max-w-[570px] bg-[rgba(243,243,243,1)] lg:p-8 rounded-lg py-8"
+            >
               <h1
-                class="font-extrabold text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
+                class="flex-col gap-1 font-extrabold text-[22px] lg:text-[24px] font-[EB-Garamond] text-[rgba(65,64,64,1)] flex justify-between items-center text-center pl-0.5"
               >
                 1. Are application fee waivers available?
                 <img class="w-6" src="images/plus-logo.png" alt="" />
@@ -373,7 +380,7 @@
       </section>
 
       <section
-        class="flex flex-col justify-center items-center mt-[120px] mb-[120px]"
+        class="flex flex-col justify-center items-center mt-[50px] lg:mt-[120px] lg:mb-[120px]"
       >
         <div
           class="contact-with-us-header-description max-w-[680px] flex flex-col justify-center items-center"
@@ -384,7 +391,7 @@
             Contact With Us
           </h3>
           <p
-            class="text-center text-[rgba(112,112,112,1)] leading-[26px] mb-[60px]"
+            class="text-center text-[rgba(112,112,112,1)] leading-[26px] mb-10 lg:mb-[60px]"
           >
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -392,10 +399,12 @@
           </p>
         </div>
 
-        <div class="contact-us-card-section flex gap-[30px]">
-          <div class="contact-us-card-container w-[569px] grid grid-cols-2">
+        <div class="contact-us-card-section flex gap-[30px] flex-col">
+          <div
+            class="contact-us-card-container lg:w-[569px] grid grid-cols-1 gap-[5px]"
+          >
             <div
-              class="contact-us-card py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)] border-r border-[rgba(207,207,207,1)]"
+              class="contact-us-card py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)] lg:border-r border-[rgba(207,207,207,1)]"
             >
               <img
                 class="w-10 mb-[16px]"
@@ -425,7 +434,7 @@
               </p>
             </div>
             <div
-              class="contact-us-card border-r border-t border-[rgba(207,207,207,1)] py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)]"
+              class="contact-us-card lg:border-r lg:border-t border-[rgba(207,207,207,1)] py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)]"
             >
               <img
                 class="w-10 mb-[16px]"
@@ -440,7 +449,7 @@
               </p>
             </div>
             <div
-              class="contact-us-card border-t border-[rgba(207,207,207,1)] py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)]"
+              class="contact-us-card lg:border-t border-[rgba(207,207,207,1)] py-[65px] px-[61px] flex flex-col justify-center items-center bg-[rgba(243,243,243,1)]"
             >
               <img
                 class="w-10 mb-[16px]"
@@ -458,31 +467,31 @@
 
           <div class="flex flex-col gap-[30px]">
             <input
-              class="w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
+              class="w-[400px] lg:w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
               type="text"
               placeholder="Your Name"
             />
             <input
-              class="w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
+              class="w-[400px] lg:w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
               type="email"
               name="email"
               id="email"
               placeholder="Your Email"
             />
             <input
-              class="w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
+              class="w-[400px] lg:w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
               type="text"
               placeholder="Subject"
             />
             <textarea
-              class="w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
+              class="w-[400px] lg:w-[570px] p-[23px] text-[gba(112,112,112,1)] bg-[rgba(243,243,243,1)] rounded-lg"
               rows="5"
               name="Your Message"
               id=""
               placeholder="Your Message"
             ></textarea>
             <button
-              class="font-extrabold text-white text-[20px] w-[570px] py-5 bg-[rgba(182,140,90,1)] flex justify-center items-center rounded-[8px]"
+              class="font-extrabold text-white text-[20px] w-[400px] lg:w-[570px] py-5 bg-[rgba(182,140,90,1)] flex justify-center items-center rounded-lg"
             >
               Send Message
             </button>
@@ -491,23 +500,27 @@
       </section>
     </main>
     <footer
-      class="bg-[rgba(17,17,17,1)] flex justify-center items-top py-[120px] gap-[81px]"
+      class="bg-[rgba(17,17,17,1)] flex flex-col lg:justify-center items-top py-[120px] lg:gap-[81px] px-3 mt-30"
     >
-      <div>
-        <img class="mb-[47px]" src="images/logo.png" alt="" />
+      <div class="flex flex-col justify-center items-center mb-8">
+        <img class="mb-5 lg:mb-[47px]" src="images/logo.png" alt="" />
         <p
-          class="w-[235px] text-[rgba(207,207,207,1)] leading-[26px] text-[16px] font-normal"
+          class="lg:w-[235px] text-[rgba(207,207,207,1)] leading-[26px] text-[16px] font-normal text-center"
         >
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour.
         </p>
       </div>
-      <div class="w-[140px] text-[rgba(207,207,207,1)]">
-        <h3 class="font-[EB-Garamond] font-extrabold text-[24px] mb-[47px]">
+      <div
+        class="lg:w-[140px] text-[rgba(207,207,207,1)] flex flex-col justify-center items-center mb-8"
+      >
+        <h3
+          class="font-[EB-Garamond] font-extrabold text-[24px] mb-6 lg:mb-[47px]"
+        >
           UseFull Link
         </h3>
-        <ul class="">
+        <ul class="grid grid-cols-3 justify-center mx-auto [&_li]:mx-auto">
           <li>Homes</li>
           <li>About Us</li>
           <li>Cases</li>
@@ -515,32 +528,47 @@
           <li>Contact Us</li>
         </ul>
       </div>
-      <div class="text-[rgba(207,207,207,1)]">
-        <h3 class="font-[EB-Garamond] font-extrabold text-[24px] mb-[47px]">
+      <div
+        class="text-[rgba(207,207,207,1)] mb-8 flex flex-col justify-center items-center"
+      >
+        <h3
+          class="font-[EB-Garamond] font-extrabold text-[24px] mb-6 lg:mb-[47px]"
+        >
           Contact Now
         </h3>
-        <p class="w-[216px] mb-4">
+        <p class="lg:w-[216px] mb-2 lg:mb-4">
           555 4th 5t NW, Washington DC 20530, United States
         </p>
-        <p>+88 01750 000 000</p>
-        <p class="mb-4">+88 01750 000 000</p>
+        <p class="inline-block">+88 01750 000 000</p>
+        <p class="mb-2 lg:mb-4 inline-block">+88 01750 000 000</p>
         <p>info@gmail.com</p>
         <p>info@gmail.com</p>
       </div>
-      <div class="text-[rgba(207,207,207,1)]">
-        <h3 class="font-[EB-Garamond] font-extrabold text-[24px] mb-[47px]">
+      <div
+        class="text-[rgba(207,207,207,1)] flex flex-col justify-center items-center"
+      >
+        <h3
+          class="font-[EB-Garamond] font-extrabold text-[24px] lg:mb-[47px] mb-6"
+        >
           Subscribe
         </h3>
-        <p class="w-[217px] mb-[24px]">
+        <p class="lg:w-[217px] mb-6 text-center">
           Subscribe for our latest & Articles. We Won’t Give You Spam Mails
         </p>
-        <input
-          class="w-[324px] text-black bg-white rounded-lg pl-[33px] py-[23px]"
-          type="email"
-          name=""
-          id=""
-          placeholder="Email Address"
-        />
+        <div class="w-[324px] flex">
+          <input
+            class="text-black bg-white rounded-lg pl-[33px] py-[23px] inline-block"
+            type="email"
+            name=""
+            id=""
+            placeholder="Email Address"
+          />
+          <div
+            class="w-[72px] bg-[rgba(182,140,90,1)] rounded-lg lg:-ml-3 flex justify-center items-center mx-auto"
+          >
+            <img class="w-9" src="images/send-logo.png" alt="" />
+          </div>
+        </div>
       </div>
     </footer>
   </body>
